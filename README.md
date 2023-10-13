@@ -1,5 +1,4 @@
-# Dynamic Data Dashboard
-
+# Automized Daily Stock Tracker App
 ## Project Description
 
 This project aims to create a dynamic data dashboard to visualize the top 20 gainers, losers, and most actively traded tickers in the US market, utilizing data from the AlphaVantage API. This dashboard updates daily, providing a clear and concise view of market movers, which can be instrumental for traders and investors to make informed decisions.
