@@ -25,5 +25,5 @@ jobs:
       - name: Run data retrieval script
         run: python src/data_retrieval.py
 
-      - name: Run data processing script
-        run: python src/data_processing.py
+      # - name: Run data processing script
+      #   run: python src/data_processing.py
