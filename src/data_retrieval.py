@@ -77,7 +77,7 @@ def insert_data(table_name, data):
     
     # Insert data into the Supabase table
     supabase.table(table_name).insert(values).execute()
-    # print(response) # Print our response just name the variable above to response
+    #print(response) # Print our response just name the variable above to response
 
 # Insert data into tables
 insert_data('top_gainers', data['top_gainers'])

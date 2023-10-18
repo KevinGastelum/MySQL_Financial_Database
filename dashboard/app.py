@@ -24,7 +24,7 @@ st.set_page_config(
 def fetch_data(table_name, date):
   date_str = date.strftime('%Y-%m-%d')
   result = supabase.table(table_name).select().eq('date', date_str).execute()
-  # print(result) # print results
+  #print(result) # print results
   data = pd.DataFrame(result['data'])
   return data
 
@@ -50,7 +50,7 @@ def plot_data(df, title, y_column):
 
 def main():
     custom_css()
-    st.title("Automized Daily Stock Tracker📈")
+    st.title("Kevin's Automized Daily Stock Tracker📈")
 
     stoggle(
         "Click me!",
