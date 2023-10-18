@@ -58,7 +58,8 @@ def main():
         """
     )
 
-    date = st.date_input('**Select a Date** (Data begins on date of project creation 2023/10/16)', value=pd.to_datetime('today'))  # Date Picker MIGHT NEED TO CHANGE THIS TO 'yesterday'
+    
+    date = st.date_input('**Select a Date** (Data begins on date of project creation 2023/10/16)', value=pd.to_datetime('today') - pd.Timedelta(days=1))  # Date Picker - CHANGE To show 'yesterday' to avoid issues
 
     st.header(f"Top 20 Gainers on {date.strftime('%Y-%m-%d')}")
     top_gainers = fetch_data("top_gainers", date)
