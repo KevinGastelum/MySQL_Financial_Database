@@ -1,6 +1,6 @@
-# Automized Daily Stock Tracker App
+# Automized Daily Stock Tracker App [[Website here]](https://mysqlfinancialdatabase-3oest9jb8p63gsf2fyqdxb.streamlit.app/)
 ## Project Description
-
+<img src="images/Financedb_strmlit.png">
 This project aims to create a dynamic data dashboard to visualize the top 20 gainers, losers, and most actively traded tickers in the US market, utilizing data from the AlphaVantage API. This dashboard updates daily, providing a clear and concise view of market movers.
 
 ## Data Source
