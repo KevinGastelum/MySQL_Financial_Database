@@ -29,6 +29,15 @@ jobs:
 
       - name: Run data retrieval script
         run: python src/data_retrieval.py
+        env:
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+          SUPABASE_SERVICE_URL: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
 
+
+
+
+
+          
       # - name: Run data processing script
       #   run: python src/data_processing.py
